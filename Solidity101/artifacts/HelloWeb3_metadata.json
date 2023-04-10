@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_sting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract/WTFacademy/Solidity101/train_1.sol": "HelloWeb3"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract/WTFacademy/Solidity101/train_1.sol": {
+			"keccak256": "0x732131af06c6ccf36ff8bb0558b7d076473f1657e950b7b4f42608164506aa95",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://969648491e88266417e698b104b7064e3777423d9b4997747b599621e2b42fad",
+				"dweb:/ipfs/QmbbuLGGa1GZzweg4YoVCXsbasm6dQoReey4HzaBHKsLK6"
+			]
+		}
+	},
+	"version": 1
+}

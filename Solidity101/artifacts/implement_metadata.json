@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract/WTFacademy/Solidity101/train_14_2.sol": "implement"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract/WTFacademy/Solidity101/train_14_2.sol": {
+			"keccak256": "0x09cd409baedd4ec86411d27cbe3a2ff665b33860f7c1413cfae13d1caec91018",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d74bcd03edff0886b98b4468c346a3e9fca30e8a395c6dd7fa15078a13f2b8b3",
+				"dweb:/ipfs/QmSEfAbDfzxvseG7brGYbwHLZS38Lxy5em4jhAeA7kMhj5"
+			]
+		}
+	},
+	"version": 1
+}
