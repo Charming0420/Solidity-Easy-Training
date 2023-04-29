@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testImport",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract/WTFacademy/Solidity102/18_import.sol": "importSomething"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract/WTFacademy/Solidity102/18_import.sol": {
+			"keccak256": "0x512d72598bff0456e08f123857285970dde52f5e80da574a3905858af27531ee",
+			"license": "MTI",
+			"urls": [
+				"bzz-raw://88dcd6266b0c83d7d133fcac8cadbbf63853336c126998cd9091d1f25848eb9b",
+				"dweb:/ipfs/QmWX28ncN2jmyUEY4nGpEnS3wb4FRmXcvjyiBH9ihQfgwc"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Address.sol": {
+			"keccak256": "0x2e53602b96c1bf97c731ed3e2a981b4f85e23a9410a5ebd36e549a4cc93340dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://523f47b3ecc6d4e47b4b998d3356199988eef8a42a10dff5a3660d5f9e76cc71",
+				"dweb:/ipfs/QmRLH8CNvDsuLzNCjsbpLM3RHD9he5ESXroYoDT3tpaTCA"
+			]
+		}
+	},
+	"version": 1
+}

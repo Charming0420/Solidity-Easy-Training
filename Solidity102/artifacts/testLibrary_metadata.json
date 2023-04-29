@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "getString1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "getString2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract/WTFacademy/Solidity102/17_library.sol": "testLibrary"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract/WTFacademy/Solidity102/17_library.sol": {
+			"keccak256": "0x7d8d0d92b5ac7da40c62dde3687129fa25ebabab97228ebe7a102a222de4bce6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://930cc640f4558e91cf941eb9c024389282781dd8d3c293ea35aa2d9801ab274d",
+				"dweb:/ipfs/QmSkRd2e6GXY3hZkkpEE9Wkqmoh6qKiPecbSdMXV9RjzrU"
+			]
+		},
+		"Contract/WTFacademy/Solidity102/StringLibrary.sol": {
+			"keccak256": "0x1d1b0f46d88722b7852d608c3327f0c369bcb143917bbfa2e86256fcf8473e92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d087ea41b39118bff3b272755059d52449f6b6dd1e27842ce2ec6e6b0c5fb6f",
+				"dweb:/ipfs/QmZuHHsUAT4Yd8jWB8qD5jny221ftbzDUdf6NSENtMt1hn"
+			]
+		}
+	},
+	"version": 1
+}

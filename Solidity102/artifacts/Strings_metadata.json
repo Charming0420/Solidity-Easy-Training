@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "toHexString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "toHexString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "toString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"toHexString(uint256)": {
+					"details": "Converts a `uint256` to its ASCII `string` hexadecimal representation."
+				},
+				"toHexString(uint256,uint256)": {
+					"details": "Converts a `uint256` to its ASCII `string` hexadecimal representation with fixed length."
+				},
+				"toString(uint256)": {
+					"details": "Converts a `uint256` to its ASCII `string` decimal representation."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract/WTFacademy/Solidity102/StringLibrary.sol": "Strings"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract/WTFacademy/Solidity102/StringLibrary.sol": {
+			"keccak256": "0x1d1b0f46d88722b7852d608c3327f0c369bcb143917bbfa2e86256fcf8473e92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d087ea41b39118bff3b272755059d52449f6b6dd1e27842ce2ec6e6b0c5fb6f",
+				"dweb:/ipfs/QmZuHHsUAT4Yd8jWB8qD5jny221ftbzDUdf6NSENtMt1hn"
+			]
+		}
+	},
+	"version": 1
+}
